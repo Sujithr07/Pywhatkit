@@ -2,7 +2,7 @@ import pywhatkit
 
 def send_message():
 
-    num=input("Enter reciever number: ")
+    num=input("Enter receiver number: ")
     print()
 
     message=input("Enter message: ")
@@ -16,6 +16,6 @@ def send_message():
 
     pywhatkit.sendwhatmsg(num,message,hour,min)
 
-    
+
 
 
